@@ -4,7 +4,7 @@
 
 ```bash
 git clone git@github.com:findmentor-network/javascript-workshop-homework
-cd tdd-game-case
+cd javascript-workshop-homework
 npm install
 ```
 
