@@ -3,7 +3,7 @@
 # Install
 
 ```bash
-git clone git@github.com:cagataycali/tdd-game-case.git
+git clone git@github.com:findmentor-network/javascript-workshop-homework
 cd tdd-game-case
 npm install
 ```
