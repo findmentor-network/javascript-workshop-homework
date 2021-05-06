@@ -1,24 +1,25 @@
-import { Room } from '../room/room'
+// import { Room } from '../room/room'
 
 export class User {
-  socketId: string;
+  id: string;
   name: string;
-  room: Room;
-  constructor (socketId: string, name: string) {
-    this.socketId = socketId
+  constructor (id: string, name: string) {
+    this.id = id
     this.name = name
-    this.room = {}
+    User.allUsers = [...User.allUsers, this]
   }
 
-  static all () {
+  // For assign and return all users
+  static allUsers: User[] = [];
 
+  static all () {
+    return User.allUsers
   }
 
   static get (id: string) {
-
   }
 
-  getRoom () {
-    return this.room
+  static AddUserItself () {
+
   }
 }
