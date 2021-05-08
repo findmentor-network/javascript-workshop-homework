@@ -13,7 +13,9 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    '@typescript-eslint'
+    'import',
+    '@typescript-eslint',
+    'prettier'
   ],
   rules: {
   }
