@@ -1,6 +1,4 @@
 // This file represents the backend project.
-console.log('Backend')
+console.log('Backend');
 
-export {
-
-}
+export {};
